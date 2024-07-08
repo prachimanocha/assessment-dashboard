@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+canvas {
+  max-width: 800px;
+  margin: auto;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+header {
+  background-color: #f0de02; /* Bright yellow */
+  color: black;
+  /* padding: 20px; */
+  display: flex;
+  align-items: center;
+ justify-content: space-between;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); 
+}
+
+
+header .logo img {
+  width: 80px; /* Adjust size as needed */
+  height: 70px;
+  
+}
+
+.circle {
+  display: inline-block;
+  background-color: black;
+  color: white; /* Sets text color to white */
+  width: 30px; /* Width of the circle */
+  height: 30px; /* Height of the circle */
+  font-size: 20px; /* Font size of the letter */
+  line-height: 30px; /* Centers the letter vertically */
+  text-align: center; /* Centers the letter horizontally */
+  border-radius: 50%; /* Makes the background a circle */
+}
+
+.nav__logo-name{
+  padding-left: 2px;
+  padding-right: 15px;
+}
+  body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif; /* Default font */
+            width: 100%; /* Ensures the body and html fill the screen */
+        }
+
+        .background {
+            background-color:white !important; /* Dark brown background */
+            color: white; /* Ensures text is readable on the dark background */
+            min-height: 100vh; /* Full height viewport */
+            width: 100%; /* Full width */
+            box-sizing: border-box; /* Includes padding in width calculations */
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between; /* Space elements out */
+            padding: 20px; /* Padding inside the header */
+            width: 100%; /* Ensures header is full width */
+            box-sizing: border-box; /* Includes padding in width calculations */
+        }
+
+        .logo img {
+            height: 50px; /* Fixed height for logo */
+        }
+
+        .circle {
+            display: inline-block;
+            background-color: black;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            margin-right: 10px;
+        }
+
+.box-1{
+  width: 400px ;
+  height: 400px ;
+  background-color: #f1deea ; 
+  border-radius: 20px ;
+  padding: 20px ;
+  display: flex ;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.doughnut-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.doughnut-chart {
+  flex: 1;
+  max-width: 30%;
+  margin: 10px;
+  min-width: 250px;
+  min-height: 250px;
+}
+
+
+

@@ -1,0 +1,47 @@
+.correlation-table {
+    width: 100%;
+    border-collapse: separate; /* Use separate border collapse to apply border-radius */
+    border-spacing: 0; /* Remove spacing between cells */
+    margin-top: 2px;
+    border: 1px solid #3d3935; /* Add a border around the table */
+    border-radius: 20px; /* Apply border-radius to the table */
+    overflow: hidden; /* Ensure the border-radius is applied by hiding overflow */
+  }
+  
+  .correlation-table th, .correlation-table td {
+    border: 1px solid #3d3935;
+    border-left: none; /* Remove left border to avoid double border with table border */
+    border-right: none; /* Remove right border to avoid double border with table border */
+    padding: 2px 5px;
+    text-align: center;
+    color: #f41e74;
+    font-size: 12px;
+  }
+  
+  .correlation-table th:first-child {
+    border-top-left-radius: 8px; /* Apply border-radius to top-left corner */
+  }
+  
+  .correlation-table th:last-child {
+    border-top-right-radius: 8px; /* Apply border-radius to top-right corner */
+  }
+  
+  .correlation-table td {
+    color: white;
+    text-align: left;
+    word-wrap: break-word;
+    max-width: 300px;
+  }
+  
+  .correlation-table tr:last-child td:first-child {
+    border-bottom-left-radius: 8px; /* Apply border-radius to bottom-left corner */
+  }
+  
+  .correlation-table tr:last-child td:last-child {
+    border-bottom-right-radius: 8px; /* Apply border-radius to bottom-right corner */
+  }
+  
+  .correlation-table h2 {
+    margin-bottom: 5px;
+  }
+  
