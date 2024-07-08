@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>React App</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            overflow-x: hidden;
+        }
+        .nav__logo-name{
+            padding-left: 2px;
+            color:#f41e74;
+            padding-right: 40px;
+            font-weight: 900;
+            font-size: 17px;
+}
+
+        .background {
+            padding: 20px;
+            margin-top: 60px; /* Adjust based on the height of the header */
+        }
+
+        header {
+            background-color:  #f0de02;
+            color: black;
+            width: 100%;
+            height: 60px; /* Fixed height */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+            position: fixed; /* Key property to make the header fixed */
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000; /* Ensures the header stays on top of other content */
+        }
+
+        .logo img {
+            height: 52px; /* Adjust the size as necessary */
+        }
+        .logo {
+            transition: transform 0.1s ease;
+        }
+        .logo:hover {
+            transform: rotate(15deg);
+        }
+
+        .circle {
+            display: inline-block;
+            background-color: #3d3935;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            margin-right: 10px;
+        }
+   
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="happiness.png" alt="The Happiness Index">
+        </div>
+        <h2 style="font-family: Arial, Helvetica, sans-serif; font-size: 1.5rem; color:#f41e74;">CULTURAL ASSESSMENT DASHBOARD</h2>
+        <div>
+            <span class="circle">P</span>
+            <span class="nav__logo-name">Prachi</span>
+        </div>
+    </header>
+    <div class="background">
+        <!-- Content of the page goes here -->
+        <div id="root"></div> 
+    </div>
+</body>
+</html> 
